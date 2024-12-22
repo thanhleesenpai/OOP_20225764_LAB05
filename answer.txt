@@ -39,3 +39,12 @@ Suppose the DVDs have a different ordering rule from the other media types, that
 Triển khai Comparable trong lớp con DigitalVideoDisc để ghi đè quy tắc sắp xếp cụ thể.
 	Cách triển khai compareTo() trong DigitalVideoDisc:
 Thứ tự yêu cầu: Sắp xếp theo title, sau đó là length giảm dần, và cuối cùng là cost.
+
+
+
+
+Lab05:
+The Aims class must be updated to handle any exceptions generated when the play() methods are
+called. What happens when you don’t update for them to catch?
+
+Nếu không cập nhật lớp Aims để bắt và xử lý ngoại lệ từ phương thức play(),Chương trình có thể dừng đột ngột, Khi một ngoại lệ không được xử lý, ứng dụng sẽ gặp sự cố và thoát ra ngoài, làm gián đoạn quá trình thực thi.
